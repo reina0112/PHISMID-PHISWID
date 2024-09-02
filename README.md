@@ -77,7 +77,7 @@ The images below are restoration examples for both datasets.
 ### PHISMID Results
 |Median filter  | Adaptive median filter  | U-Net  |
 |---|---|---|
-|<img src="img/PHISMID_Result/MF/3mfsnowtest1.png" width=100%> |  <img src="img/PHISMID_Result/AdaptiveMF/3AdaptiveMFsnowtest1" width=100%> | <img src="img/PHISMID_Result/U-Net/PHISMID_test1.png" width=100%>  |
+|<img src="img/PHISMID_Result/MF/3mfsnowtest1.png" width=100%> |  <img src="img/PHISMID_Result/AdaptiveMF/3AdaptiveMFsnowtest1.png" width=100%> | <img src="img/PHISMID_Result/U-Net/PHISMID_test1.png" width=100%>  |
 |<img src="img/PHISMID_Result/MF/3mftest7.png" width=100%> | <img src="img/PHISMID_Result/AdaptiveMF/3AdaptiveMFtest7.png" width=100%> | <img src="img/PHISMID_Result/U-Net/PHISMID_test10.png" width=100%>|
 |<img src="img/PHISMID_Result/MF/3mfsnowtest10.png" width=100%> | <img src="img/PHISMID_Result/AdaptiveMF/3AdaptiveMFsnowtest10.png" width=100%> | <img src="img/PHISMID_Result/U-Net/PHISMID_test2.png" width=100%>|
 
