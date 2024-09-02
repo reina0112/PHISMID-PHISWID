@@ -7,7 +7,7 @@ Welcome to Physics-Inspired Marine Snow Image Dataset (PHISMID in short) and Phy
 <img src="img/PHISWID/1room.png" width=50%><img src="img/PHISWID/1snow.png" width=50%>  
 *An example from Physics-Inspired Underwater Image Dataset. Left: Original underwater image. Right: Synthesized image.*
 
-PHISWID is tailored to enhance underwater image processing through physics-inspired image synthesis. PHISWID showcases ***color degradation*** and the often-neglected effects of ***marine snow***, a composite of organic matter and sand particles. PHISMID showcases ***marine snow***. We mathematically model the light scattering of marine snow through physics-based underwater image observation model. The modeled artifacts are synthesized with underwater images and construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for marine snow removal and to train a deep neural network.
+PHISWID is tailored to enhance underwater image processing through physics-inspired image synthesis. PHISWID showcases ***color degradation*** and the often-neglected effects of ***marine snow***, a composite of organic matter and sand particles. PHISMID showcases ***marine snow***. We mathematically model the light scattering of marine snow through physics-based underwater image observation model. The modeled artifacts are synthesized with underwater images and construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for underwater image enhancement and to train a deep neural network.
 
 ## References
 If you use PHISWID in your paper, please cite the following paper. The details for synthesizing marine snow artifacts are also described.
