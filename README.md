@@ -1,5 +1,5 @@
 # Physics-Inspired Marine Snow Image Dataset and Physics-Inspired Underwater Image Dataset
-Welcome to Physics-Inspired Marine Snow Image Dataset(PHISMID in short) and Physics-Inspired Underwater Image Dataset(PHISWID in short).
+Welcome to Physics-Inspired Marine Snow Image Dataset (PHISMID in short) and Physics-Inspired Underwater Image Dataset (PHISWID in short).
 
 <img src="img/PHISMID/1water.png" width=50%><img src="img/PHISMID/snowtest1.png" width=50%>  
 *An example from Physics-Inspired Marine Snow Image Dataset. Left: Original underwater image. Right: Synthesized image.*
@@ -11,7 +11,7 @@ PHISWID is tailored to enhance underwater image processing through physics-inspi
 
 ## References
 If you use PHISWID in your paper, please cite the following paper. The details for synthesizing marine snow artifacts are also described.
-  1. [R. Kaneko, H. Higashi, and Y. Tanaka, "Physics-Inspired Synthesized Underwater Image Dataset"](https://arxiv.org/abs/2404.03998) preprint on arXiv, 2024.
+  1. [R. Kaneko, H. Higashi, and Y. Tanaka, "Physics-Inspired Synthesized Underwater Image Dataset" preprint on arXiv, 2024.](https://arxiv.org/abs/2404.03998)
 
 ## Dataset Descriptions
 **PHISMID**: Designed for marine snow removal  
