@@ -65,9 +65,9 @@ The following tables are the current state-of-the-art results for marine snow re
 ### PHISWID Results
 |Method   | PSNR  | SSIM  |
 |---|---|---|
-|Deep WaveNet(UIEB)[Sharma et al.](https://arxiv.org/abs/2106.07910)   |17.73  | 0.076  |
-|Water Net(UIEB)[C Li et al.](https://ieeexplore.ieee.org/document/8917818)   |14.35   | 0.064  |
-|U-shape(LSUI)[L Peng et al.](https://ieeexplore.ieee.org/abstract/document/10129222)   |19.77  | 0.397  |
+|Deep WaveNet(UIEB) ([Sharma et al.](https://arxiv.org/abs/2106.07910))   |17.73  | 0.076  |
+|Water Net(UIEB) ([C Li et al.](https://ieeexplore.ieee.org/document/8917818))   |14.35   | 0.064  |
+|U-shape(LSUI) ([L Peng et al.](https://ieeexplore.ieee.org/abstract/document/10129222))   |19.77  | 0.397  |
 |U-Net   | **23.52**  | **0.692**  |
 |Synthesized image   | 17.35  | -0.120  |
 
