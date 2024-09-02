@@ -34,7 +34,7 @@ The images in *original* are real underwater images without marine snow or atmos
 The images below are examples from the test data of PHISMID.
 |Original underwater image| Synthesized images for PHISMID tasks|
 |---|---|
-|<img src="img/1water.png" width=100%> |  <img src="img/snowtest1.png" width=100%> |
+|<img src="img/1water.png" width=100%> | <img src="img/snowtest1.png" width=100%> |
 |<img src="img/2water.png" width=100%> | <img src="img/snowtest2.png" width=100%> |
 |<img src="img/7water.png" width=100%> | <img src="img/snowtest7.png" width=100%> |
 
@@ -77,17 +77,17 @@ The images below are restoration examples for both datasets.
 ### PHISMID Results
 |Median filter  | Adaptive median filter  | U-Net  |
 |---|---|---|
-|<img src="img/MF/2076923_mf.png" width=100%> |  <img src="img/task1/2076923_amf.png" width=100%> | <img src="img/task1/2076923_unet.png" width=100%>  |
-|<img src="img/task1/2907172_mf.png" width=100%> | <img src="img/task1/2907172_amf.png" width=100%> | <img src="img/task1/2907172_unet.png" width=100%>|
-|<img src="img/task1/41918455_mf.png" width=100%> | <img src="img/task1/41918455_amf.png" width=100%> | <img src="img/task1/41918455_unet.png" width=100%>|
+|<img src="img/MF/3mfsnowtest1.png" width=100%> |  <img src="img/AdaptiveMF/3AdaptiveMFsnowtest1" width=100%> | <img src="img/U-Net/marinesnowUNet1.png" width=100%>  |
+|<img src="img/MF/3mftest7.png" width=100%> | <img src="img/AdaptiveMF/3AdaptiveMFsnowtest7.png" width=100%> | <img src="img/U-Net/marinesnowUNet2.png" width=100%>|
+|<img src="img/MF/3mfsnowtest10.png" width=100%> | <img src="img/AdaptiveMF/3AdaptiveMFsnowtest10.png" width=100%> | <img src="img/U-Net/marinesnowUNet10.png" width=100%>|
 
 
 ### PHISWID Results
 |Deep WaveNet  | Water Net  | U-shape  | U-Net  |
 |---|---|---|---|
-|<img src="img/task2/2076923_mf.png" width=100%> |  <img src="img/task2/2076923_amf.png" width=100%> | <img src="img/task2/2076923_unet.png" width=100%>  |<img src="img/task2/2076923_unet.png" width=100%>  |
-|<img src="img/task2/2907172_mf.png" width=100%> | <img src="img/task2/2907172_amf.png" width=100%> | <img src="img/task2/2907172_unet.png" width=100%>|<img src="img/task2/2076923_unet.png" width=100%>  |
-|<img src="img/task2/41918455_mf.png" width=100%> | <img src="img/task2/41918455_amf.png" width=100%> | <img src="img/task2/41918455_unet.png" width=100%>|<img src="img/task2/2076923_unet.png" width=100%>  |
+|<img src="img/Deepwavenet/Deepwavenet_205.png" width=100%> |  <img src="img/Waternet/waternet_205.png" width=100%> | <img src="img/U-shape/Ushape3.png" width=100%>  |<img src="img/U-Net/PHISWID_room1.png" width=100%>  |
+|<img src="img/Deepwavenet/Deepwavenet_206.png" width=100%> | <img src="img/Waternet/waternet_206.png" width=100%> | <img src="img/U-shape/Ushape4.png" width=100%>|<img src="img/U-Net/PHISWID_room2.png" width=100%>  |
+|<img src="img/Deepwavenet/Deepwavenet_207.png" width=100%> | <img src="img/Waternet/waternet_207.png" width=100%> | <img src="img/U-shape/Ushape5.png" width=100%>|<img src="img/U-Net/PHISWID_room3.png" width=100%>  |
 
 ## Copyright
 Copyright (c) 2024 Reina Kaneko, Hiroshi Higashi, and Yuichi Tanaka.
