@@ -77,17 +77,17 @@ The images below are restoration examples for both datasets.
 ### PHISMID Results
 |Median filter  | Adaptive median filter  | U-Net  |
 |---|---|---|
-|<img src="img/MF/3mfsnowtest1.png" width=100%> |  <img src="img/AdaptiveMF/3AdaptiveMFsnowtest1" width=100%> | <img src="img/U-Net/marinesnowUNet1.png" width=100%>  |
-|<img src="img/MF/3mftest7.png" width=100%> | <img src="img/AdaptiveMF/3AdaptiveMFsnowtest7.png" width=100%> | <img src="img/U-Net/marinesnowUNet2.png" width=100%>|
-|<img src="img/MF/3mfsnowtest10.png" width=100%> | <img src="img/AdaptiveMF/3AdaptiveMFsnowtest10.png" width=100%> | <img src="img/U-Net/marinesnowUNet10.png" width=100%>|
+|<img src="img/PHISMID_Result/MF/3mfsnowtest1.png" width=100%> |  <img src="img/PHISMID_Result/AdaptiveMF/3AdaptiveMFsnowtest1" width=100%> | <img src="img/PHISMID_Result/U-Net/marinesnowUNet1.png" width=100%>  |
+|<img src="img/PHISMID_Result/MF/3mftest7.png" width=100%> | <img src="img/PHISMID_Result/AdaptiveMF/3AdaptiveMFsnowtest7.png" width=100%> | <img src="img/PHISMID_Result/U-Net/marinesnowUNet2.png" width=100%>|
+|<img src="img/PHISMID_Result/MF/3mfsnowtest10.png" width=100%> | <img src="img/PHISMID_Result/AdaptiveMF/3AdaptiveMFsnowtest10.png" width=100%> | <img src="img/PHISMID_Result/U-Net/marinesnowUNet10.png" width=100%>|
 
 
 ### PHISWID Results
 |Deep WaveNet  | Water Net  | U-shape  | U-Net  |
 |---|---|---|---|
-|<img src="img/Deepwavenet/Deepwavenet_205.png" width=100%> |  <img src="img/Waternet/waternet_205.png" width=100%> | <img src="img/U-shape/Ushape3.png" width=100%>  |<img src="img/U-Net/PHISWID_room1.png" width=100%>  |
-|<img src="img/Deepwavenet/Deepwavenet_206.png" width=100%> | <img src="img/Waternet/waternet_206.png" width=100%> | <img src="img/U-shape/Ushape4.png" width=100%>|<img src="img/U-Net/PHISWID_room2.png" width=100%>  |
-|<img src="img/Deepwavenet/Deepwavenet_207.png" width=100%> | <img src="img/Waternet/waternet_207.png" width=100%> | <img src="img/U-shape/Ushape5.png" width=100%>|<img src="img/U-Net/PHISWID_room3.png" width=100%>  |
+|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet_205.png" width=100%> |  <img src="img/PHISWID_Result/Waternet/waternet_205.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape3.png" width=100%>  |<img src="img/PHISWID_Result/U-Net/PHISWID_room1.png" width=100%>  |
+|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet_206.png" width=100%> | <img src="img/PHISWID_Result/Waternet/waternet_206.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape4.png" width=100%>|<img src="img/PHISWID_Result/U-Net/PHISWID_room2.png" width=100%>  |
+|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet_207.png" width=100%> | <img src="img/PHISWID_Result/Waternet/waternet_207.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape5.png" width=100%>|<img src="img/PHISWID_Result/U-Net/PHISWID_room3.png" width=100%>  |
 
 ## Copyright
 Copyright (c) 2024 Reina Kaneko, Hiroshi Higashi, and Yuichi Tanaka.
