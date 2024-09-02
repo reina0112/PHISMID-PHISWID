@@ -34,18 +34,18 @@ The images in *original* are real underwater images without marine snow or atmos
 The images below are examples from the test data of PHISMID.
 |Original underwater image| Synthesized images for PHISMID tasks|
 |---|---|
-|<img src="img/1water.png" width=100%> | <img src="img/snowtest1.png" width=100%> |
-|<img src="img/2water.png" width=100%> | <img src="img/snowtest2.png" width=100%> |
-|<img src="img/7water.png" width=100%> | <img src="img/snowtest7.png" width=100%> |
+|<img src="img/PHISMID/1water.png" width=100%> | <img src="img/PHISMID/snowtest1.png" width=100%> |
+|<img src="img/PHISMID/2water.png" width=100%> | <img src="img/PHISMID/snowtest2.png" width=100%> |
+|<img src="img/PHISMID/7water.png" width=100%> | <img src="img/PHISMID/snowtest7.png" width=100%> |
 
 
 ## Examples from PHISWID
 The images below are examples from the test data of PHISWID.
 |Original underwater image| Synthesized images for PHISWID tasks|
 |---|---|
-|<img src="img/1room.png" width=100%> |  <img src="img/1snow.png" width=100%> |
-|<img src="img/2room.png" width=100%> | <img src="img/2snow.png" width=100%> |
-|<img src="img/3room.png" width=100%> | <img src="img/3snow.png" width=100%> |
+|<img src="img/PHISWID/1room.png" width=100%> |  <img src="img/PHISWID/1snow.png" width=100%> |
+|<img src="img/PHISWID/2room.png" width=100%> | <img src="img/PHISWID/2snow.png" width=100%> |
+|<img src="img/PHISWID/3room.png" width=100%> | <img src="img/PHISWID/3snow.png" width=100%> |
 
 
 ## Benchmarking Results on Synthesized Images
