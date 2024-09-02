@@ -11,7 +11,7 @@ PHISWID is tailored to enhance underwater image processing through physics-inspi
 
 ## References
 If you use PHISWID in your paper, please cite the following paper. The details for synthesizing marine snow artifacts are also described.
-  1. [R. Kaneko, H. Higashi, and Y. Tanaka, "Physics-Inspired Synthesized Underwater Image Dataset"](https://arxiv.org/abs/2404.03998)
+  1. [R. Kaneko, H. Higashi, and Y. Tanaka, "Physics-Inspired Synthesized Underwater Image Dataset"](https://arxiv.org/abs/2404.03998) preprint on arXiv, 2024
 
 ## Dataset Descriptions
 **PHISMID**: Designed for marine snow removal  
