@@ -1,10 +1,10 @@
 # Physics-Inspired Marine Snow Image Dataset and Physics-Inspired Underwater Image Dataset
 Welcome to Physics-Inspired Marine Snow Image Dataset(PHISMID in short) and Physics-Inspired Underwater Image Dataset(PHISWID in short).
 
-<img src="img/174710351_orig.png" width=50%> <img src="img/174710351_task1.png" width=50%>  
+<img src="img/PHISMID/1water.png" width=50%> <img src="img/PHISMID/snowtest1.png" width=50%>  
 *An example from Physics-Inspired Marine Snow Image Dataset. Left: Original underwater image. Right: Synthesized image.*
 
-<img src="img/174710351_orig.png" width=50%> <img src="img/174710351_task1.png" width=50%>  
+<img src="img/PHISWID/1room.png" width=50%> <img src="img/PHISWID/1snow.png" width=50%>  
 *An example from Physics-Inspired Underwater Image Dataset. Left: Original underwater image. Right: Synthesized image.*
 
 PHISWID is tailored to enhance underwater image processing through physics-inspired image synthesis. PHISWID showcases ***color degradation*** and the often-neglected effects of ***marine snow***, a composite of organic matter and sand particles. PHISMID showcases ***marine snow***. We mathematically model the light scattering of marine snow through physics-based underwater image observation model. The modeled artifacts are synthesized with underwater images and construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for marine snow removal and to train a deep neural network.
@@ -34,18 +34,18 @@ The images in *original* are real underwater images without marine snow or atmos
 The images below are examples from the test data of PHISMID.
 |Original underwater image| Synthesized images for PHISMID tasks|
 |---|---|
-|<img src="img/2076923_orig.png" width=100%> |  <img src="img/2076923_task1.png" width=100%> |
-|<img src="img/2907172_orig.png" width=100%> | <img src="img/2907172_task1.png" width=100%> |
-|<img src="img/41918455_orig.png" width=100%> | <img src="img/41918455_task1.png" width=100%> |
+|<img src="img/1water.png" width=100%> |  <img src="img/snowtest1.png" width=100%> |
+|<img src="img/2water.png" width=100%> | <img src="img/snowtest2.png" width=100%> |
+|<img src="img/7water.png" width=100%> | <img src="img/snowtest7.png" width=100%> |
 
 
 ## Examples from PHISWID
 The images below are examples from the test data of PHISWID.
 |Original underwater image| Synthesized images for PHISWID tasks|
 |---|---|
-|<img src="img/2076923_orig.png" width=100%> |  <img src="img/2076923_task1.png" width=100%> |
-|<img src="img/2907172_orig.png" width=100%> | <img src="img/2907172_task1.png" width=100%> |
-|<img src="img/41918455_orig.png" width=100%> | <img src="img/41918455_task1.png" width=100%> |
+|<img src="img/1room.png" width=100%> |  <img src="img/1snow.png" width=100%> |
+|<img src="img/2room.png" width=100%> | <img src="img/2snow.png" width=100%> |
+|<img src="img/3room.png" width=100%> | <img src="img/3snow.png" width=100%> |
 
 
 ## Benchmarking Results on Synthesized Images
@@ -77,7 +77,7 @@ The images below are restoration examples for both datasets.
 ### PHISMID Results
 |Median filter  | Adaptive median filter  | U-Net  |
 |---|---|---|
-|<img src="img/task1/2076923_mf.png" width=100%> |  <img src="img/task1/2076923_amf.png" width=100%> | <img src="img/task1/2076923_unet.png" width=100%>  |
+|<img src="img/MF/2076923_mf.png" width=100%> |  <img src="img/task1/2076923_amf.png" width=100%> | <img src="img/task1/2076923_unet.png" width=100%>  |
 |<img src="img/task1/2907172_mf.png" width=100%> | <img src="img/task1/2907172_amf.png" width=100%> | <img src="img/task1/2907172_unet.png" width=100%>|
 |<img src="img/task1/41918455_mf.png" width=100%> | <img src="img/task1/41918455_amf.png" width=100%> | <img src="img/task1/41918455_unet.png" width=100%>|
 
