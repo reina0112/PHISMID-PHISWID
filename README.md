@@ -17,8 +17,6 @@ If you use PHISWID in your paper, please cite the following paper. The details f
 **PHISMID**: Designed for marine snow removal  
 **PHISWID**: Designed for underwater image enhancement/restoration as well as marine snow removal
 
-Clearly, image enhancement with PHISWID is more difficult than PHISMID, but PHISMID itself is also beneficial for the overlooked marine snow removal task.
-
 ### PHISMID Specifications
 PHISMID contains 400 image pairs, all having a pixel resolution of 384 x 384. All original underwater images are collected from [flicker](https://www.flickr.com) under Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic(CC BY-NC-SA 2.0) License and CC BY 2.0. It consists of an original underwater image and that contains synthesized marine snow artifacts.
 
