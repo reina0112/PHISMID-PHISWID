@@ -32,7 +32,7 @@ The images in *original* are real underwater images without marine snow or atmos
 
 ## Examples from PHISMID
 The images below are examples from the test data of PHISMID.
-|Original underwater image| Synthesized images for PHISMID tasks|
+|Original underwater image| Synthesized images with Marine snow|
 |---|---|
 |<img src="img/PHISMID/1water.png" width=100%> | <img src="img/PHISMID/snowtest1.png" width=100%> |
 |<img src="img/PHISMID/2water.png" width=100%> | <img src="img/PHISMID/snowtest2.png" width=100%> |
@@ -41,7 +41,7 @@ The images below are examples from the test data of PHISMID.
 
 ## Examples from PHISWID
 The images below are examples from the test data of PHISWID.
-|Original underwater image| Synthesized images for PHISWID tasks|
+|Original underwater image| Synthesized images with Color shift and Marine snow|
 |---|---|
 |<img src="img/PHISWID/1room.png" width=100%> |  <img src="img/PHISWID/1snow.png" width=100%> |
 |<img src="img/PHISWID/2room.png" width=100%> | <img src="img/PHISWID/2snow.png" width=100%> |
@@ -65,9 +65,9 @@ The following tables are the current state-of-the-art results for marine snow re
 ### PHISWID Results
 |Method   | PSNR  | SSIM  |
 |---|---|---|
-|Deep WaveNet(UIEB)   |17.73  | 0.076  |
-|Water Net(UIEB)   |14.35   | 0.064  |
-|U-shape(LSUI)   |19.77  | 0.397  |
+|Deep WaveNet(UIEB)[Sharma et al.](https://arxiv.org/abs/2106.07910)   |17.73  | 0.076  |
+|Water Net(UIEB)[C Li et al.](https://ieeexplore.ieee.org/document/8917818)   |14.35   | 0.064  |
+|U-shape(LSUI)[L Peng et al.](https://ieeexplore.ieee.org/abstract/document/10129222)   |19.77  | 0.397  |
 |U-Net   | **23.52**  | **0.692**  |
 |Synthesized image   | 17.35  | -0.120  |
 
