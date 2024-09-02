@@ -10,7 +10,7 @@ Welcome to Physics-Inspired Marine Snow Image Dataset (PHISMID in short) and Phy
 PHISWID is tailored to enhance underwater image processing through physics-inspired image synthesis. PHISWID showcases ***color degradation*** and the often-neglected effects of ***marine snow***, a composite of organic matter and sand particles. PHISMID showcases ***marine snow***. We mathematically model the light scattering of marine snow through physics-based underwater image observation model. The modeled artifacts are synthesized with underwater images and construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for underwater image enhancement and to train a deep neural network.
 
 ## References
-If you use PHISWID or PHISMID in your paper, please cite the following paper. The details for synthesizing marine snow artifacts are also described.
+If you use PHISMID or PHISWID in your paper, please cite the following paper. The details for synthesizing marine snow artifacts are also described.
   1. [R. Kaneko, H. Higashi, and Y. Tanaka, "Physics-Inspired Synthesized Underwater Image Dataset" preprint on arXiv, 2024.](https://arxiv.org/abs/2404.03998)
 
 ## Dataset Descriptions
@@ -29,8 +29,8 @@ You can download PHISMID and PHISWID from [Google Drive](<https://drive.google.c
 The images in *original* are real underwater images without marine snow or atmospheric images, i.e., ground-truth images. Those in *snow* are degraded images with synthesized marine snow artifacts or synthesized color shift and marine snow artifacts.
 
 ## Examples from PHISMID
-The images below are examples from the test data of PHISMID.
-|Original underwater image| Synthesized images with Marine snow|
+The images below are examples of PHISMID.
+|Original underwater image| Synthesized images with marine snow|
 |---|---|
 |<img src="img/PHISMID/1water.png" width=100%> | <img src="img/PHISMID/snowtest1.png" width=100%> |
 |<img src="img/PHISMID/2water.png" width=100%> | <img src="img/PHISMID/snowtest2.png" width=100%> |
@@ -38,8 +38,8 @@ The images below are examples from the test data of PHISMID.
 
 
 ## Examples from PHISWID
-The images below are examples from the test data of PHISWID.
-|Original underwater image| Synthesized images with Color shift and Marine snow|
+The images below are examples of PHISWID.
+|Original underwater image| Synthesized images with color shift and marine snow|
 |---|---|
 |<img src="img/PHISWID/1room.png" width=100%> |  <img src="img/PHISWID/1snow.png" width=100%> |
 |<img src="img/PHISWID/2room.png" width=100%> | <img src="img/PHISWID/2snow.png" width=100%> |
