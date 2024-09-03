@@ -24,7 +24,7 @@ PHISMID contains 400 image pairs, all having a pixel resolution of 384 x 384. Al
 PHISWID contains 2264 image pairs, all having a pixel resolution of 384 x 384. All original atmospheric RGB-D images used for PHISWID are collected from [NYD-RGB dataset](https://paperswithcode.com/dataset/rmrc-2014) and an [outdoor image dataset](https://theairlab.org/tartanair-dataset/). An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift ([ueda et al.](https://ieeexplore.ieee.org/abstract/document/8803195)) and marine snow artifacts.
 
 ## Downloading PHISMID and PHISWID
-You can download PHISMID and PHISWID from [Google Drive]([https://drive.google.com/drive/folders/12H3M-N62GykBguOO-ojujbWxmZF45P0W](https://drive.google.com/drive/folders/12H3M-N62GykBguOO-ojujbWxmZF45P0W?usp=sharing)). The file is zipped. After unzipping, you can find *original* and *snow* directories.
+You can download PHISMID and PHISWID from [Google Drive](https://drive.google.com/drive/folders/12H3M-N62GykBguOO-ojujbWxmZF45P0W?usp=sharing). The file is zipped. After unzipping, you can find *original* and *snow* directories.
 
 The images in *original* are real underwater images without marine snow or atmospheric images, i.e., ground-truth images. Those in *snow* are degraded images with synthesized marine snow artifacts or synthesized color shift and marine snow artifacts.
 
