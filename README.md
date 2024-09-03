@@ -18,13 +18,13 @@ If you use PHISMID or PHISWID in your paper, please cite the following paper. Th
 **PHISWID**: Designed for underwater image enhancement/restoration as well as marine snow removal
 
 ### PHISMID Specifications
-PHISMID contains 400 image pairs, all having a pixel resolution of 384 x 384. All original underwater images are collected from [flicker](https://www.flickr.com) under Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic(CC BY-NC-SA 2.0) License and CC BY 2.0. It consists of an original underwater image and that contains synthesized marine snow artifacts.
+PHISMID contains 400 image pairs, all having a pixel resolution of 384 x 384. All original underwater images are collected from [flickr](https://www.flickr.com) under Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic(CC BY-NC-SA 2.0) License and CC BY 2.0. It consists of an original underwater image and that contains synthesized marine snow artifacts.
 
 ### PHISWID Specifications
-PHISWID contains 2264 image pairs, all having a pixel resolution of 384 x 384. All original atmospheric RGB-D images used for PHISWID are collected from NYD-RGB dataset and an outdoor image dataset. An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift ([ueda et al.](https://ieeexplore.ieee.org/abstract/document/8803195)) and marine snow artifacts.
+PHISWID contains 2264 image pairs, all having a pixel resolution of 384 x 384. All original atmospheric RGB-D images used for PHISWID are collected from [NYD-RGB dataset](https://paperswithcode.com/dataset/rmrc-2014) and an [outdoor image dataset](https://theairlab.org/tartanair-dataset/). An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift ([ueda et al.](https://ieeexplore.ieee.org/abstract/document/8803195)) and marine snow artifacts.
 
 ## Downloading PHISMID and PHISWID
-You can download PHISMID and PHISWID from [Google Drive](<https://drive.google.com/drive/folders/0ANDhHoSp5QZvUk9PVA>). The file is zipped. After unzipping, you can find *original* and *snow* directories.
+You can download PHISMID and PHISWID from [Google Drive](https://drive.google.com/drive/folders/12H3M-N62GykBguOO-ojujbWxmZF45P0W). The file is zipped. After unzipping, you can find *original* and *snow* directories.
 
 The images in *original* are real underwater images without marine snow or atmospheric images, i.e., ground-truth images. Those in *snow* are degraded images with synthesized marine snow artifacts or synthesized color shift and marine snow artifacts.
 
@@ -89,7 +89,5 @@ The images below are restoration examples for both datasets.
 
 ## Copyright
 Copyright (c) 2024 Reina Kaneko, Hiroshi Higashi, and Yuichi Tanaka.
-
-We would like to thank all users on flickr who made original underwater images available under the CC BY-NC-SA 2.0 license. Credits of all the images in PHISMID and PHISWID are available in this repository through img_user_id.csv. Please let us know if you have any questions and comments on this dataset.
 
 
