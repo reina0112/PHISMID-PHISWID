@@ -1,5 +1,5 @@
 # Physics-Inspired Synthesized Marine Snow Image Dataset and Physics-Inspired Synthesized Underwater Image Dataset
-Welcome to Physics-Inspired Marine Snow Image Dataset (PHISMID in short) and Physics-Inspired Underwater Image Dataset (PHISWID in short).
+Welcome to Physics-Inspired Synthesized Marine Snow Image Dataset (PHISMID in short) and Physics-Inspired Synthesized Underwater Image Dataset (PHISWID in short).
 
 <img src="img/PHISMID/1water.png" width=50%><img src="img/PHISMID/snowtest1.png" width=50%>  
 *An example from Physics-Inspired Synthesized Marine Snow Image Dataset. Left: Original underwater image. Right: Synthesized image.*
