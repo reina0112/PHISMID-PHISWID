@@ -63,11 +63,10 @@ The following tables are the current state-of-the-art results for marine snow re
 ### PHISWID Results
 |Method   | PSNR  | SSIM  |
 |---|---|---|
-|Deep WaveNet(UIEB) ([Sharma et al.](https://arxiv.org/abs/2106.07910))   |17.73  | 0.076  |
-|Water Net(UIEB) ([C Li et al.](https://ieeexplore.ieee.org/document/8917818))   |14.35   | 0.064  |
-|U-shape(LSUI) ([L Peng et al.](https://ieeexplore.ieee.org/abstract/document/10129222))   |19.77  | 0.397  |
-|U-Net   | **23.52**  | **0.692**  |
-|Synthesized image   | 17.35  | -0.120  |
+|U-Net(UIEB) ([C Li et al.](https://ieeexplore.ieee.org/document/8917818))   |20.89   | 0.439  |
+|U-Net(LSUI) ([L Peng et al.](https://ieeexplore.ieee.org/abstract/document/10129222))   |21.33  | 0.319  |
+|U-Net(PHISWID)   | **23.97**  | **0.714**  |
+|Synthesized image   | 19.51  | -0.010  |
 
 ## Restoration Results
 The images below are restoration examples for both datasets.
@@ -81,7 +80,7 @@ The images below are restoration examples for both datasets.
 
 
 ### PHISWID Results
-|Deep WaveNet  | Water Net  | U-shape  | U-Net  |
+| U-Net(UIEB) | U-Net(LSUI)  | U-Net(PHISWID)  |
 |---|---|---|---|
 |<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet1.png" width=100%> |  <img src="img/PHISWID_Result/Waternet/Waternet1.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape1.png" width=100%>  |<img src="img/PHISWID_Result/UNet/PHISWID1.png" width=100%>  |
 |<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet2.png" width=100%> | <img src="img/PHISWID_Result/Waternet/Waternet2.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape2.png" width=100%>|<img src="img/PHISWID_Result/UNet/PHISWID2.png" width=100%>  |
