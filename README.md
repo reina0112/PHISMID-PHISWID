@@ -83,9 +83,9 @@ The images below are restoration examples for both datasets.
 ### PHISWID Results
 |Deep WaveNet  | Water Net  | U-shape  | U-Net  |
 |---|---|---|---|
-|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet1.png" width=100%> |  <img src="img/PHISWID_Result/Waternet/waternet1.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape1.png" width=100%>  |<img src="img/PHISWID_Result/U-Net/PHISWID11.png" width=100%>  |
-|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet2.png" width=100%> | <img src="img/PHISWID_Result/Waternet/waternet2.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape2.png" width=100%>|<img src="img/PHISWID_Result/U-Net/PHISWID2.png" width=100%>  |
-|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet3.png" width=100%> | <img src="img/PHISWID_Result/Waternet/waternet3.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape3.png" width=100%>|<img src="img/PHISWID_Result/U-Net/PHISWID3.png" width=100%>  |
+|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet1.png" width=100%> |  <img src="img/PHISWID_Result/Waternet/Waternet1.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape1.png" width=100%>  |<img src="img/PHISWID_Result/UNet/PHISWID1.png" width=100%>  |
+|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet2.png" width=100%> | <img src="img/PHISWID_Result/Waternet/Waternet2.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape2.png" width=100%>|<img src="img/PHISWID_Result/UNet/PHISWID2.png" width=100%>  |
+|<img src="img/PHISWID_Result/Deepwavenet/Deepwavenet3.png" width=100%> | <img src="img/PHISWID_Result/Waternet/Waternet3.png" width=100%> | <img src="img/PHISWID_Result/U-shape/Ushape3.png" width=100%>|<img src="img/PHISWID_Result/UNet/PHISWID3.png" width=100%>  |
 
 ## Copyright
 Copyright (c) 2024 Reina Kaneko, Hiroshi Higashi, and Yuichi Tanaka.
