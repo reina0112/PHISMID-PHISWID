@@ -81,7 +81,7 @@ The images below are restoration examples for both datasets.
 
 ### PHISWID Results
 | U-Net(UIEB) | U-Net(LSUI)  | U-Net(PHISWID)  |
-|---|---|---|---|
+|---|---|---|
 |<img src="img/Result/U-Net(UIEB)/UIEB1.png" width=100%> |  <img src="img/Result/U-Net(LSUI)/LSUI1.png" width=100%> | <img src="img/Result/U-Net(PHISWID)/PHISWID1.png" width=100%>|
 |<img src="img/Result/U-Net(UIEB)/UIEB2.png" width=100%> | <img src="img/Result/U-Net(LSUI)/LSUI2.png" width=100%> | <img src="img/Result/U-Net(PHISWID)/PHISWID2.png" width=100%>|
 |<img src="img/Result/U-Net(UIEB)/UIEB3.png" width=100%> | <img src="img/Result/U-Net(LSUI)/LSUI3.png" width=100%> | <img src="img/Result/U-Net(PHISWID)/PHISWID3.png" width=100%>|
