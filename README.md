@@ -21,7 +21,7 @@ If you use PHISMID or PHISWID in your paper, please cite the following paper. Th
 PHISMID contains 400 image pairs, all having a pixel resolution of 384 x 384. All original underwater images are collected from [flickr](https://www.flickr.com) under Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic(CC BY-NC-SA 2.0) License and CC BY 2.0. It consists of an original underwater image and that contains synthesized marine snow artifacts.
 
 ### PHISWID Specifications
-PHISWID contains 2264 image pairs, all having a pixel resolution of 384 x 384. All original atmospheric RGB-D images used for PHISWID are collected from [NYD-RGB dataset](https://paperswithcode.com/dataset/rmrc-2014) and an [outdoor image dataset](https://theairlab.org/tartanair-dataset/). An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift ([ueda et al.](https://ieeexplore.ieee.org/abstract/document/8803195)) and marine snow artifacts.
+PHISWID contains 4195 image pairs, all having a pixel resolution of 1344 x 756. All original atmospheric RGB-D images used for PHISWID are collected from [large-scale RGB-D database]([https://paperswithcode.com/dataset/rmrc-2014]). An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift ([ueda et al.](https://ieeexplore.ieee.org/abstract/document/8803195)) and marine snow artifacts.
 
 ## Downloading PHISMID and PHISWID
 You can download PHISMID and PHISWID from [Google Drive](https://drive.google.com/drive/folders/12H3M-N62GykBguOO-ojujbWxmZF45P0W?usp=sharing). The file is zipped. After unzipping, you can find *original* and *degraded* directories.
@@ -42,8 +42,8 @@ The images below are examples of PHISWID.
 |Original underwater image| Synthesized images with color shift and marine snow|
 |---|---|
 |<img src="img/PHISWID/1room.png" width=100%> |  <img src="img/PHISWID/1snow.png" width=100%> |
-|<img src="img/PHISWID/2room.png" width=100%> | <img src="img/PHISWID/2snow.png" width=100%> |
-|<img src="img/PHISWID/3room.png" width=100%> | <img src="img/PHISWID/3snow.png" width=100%> |
+|<img src="img/PHISWID/31room.png" width=100%> | <img src="img/PHISWID/31snow.png" width=100%> |
+|<img src="img/PHISWID/51room.png" width=100%> | <img src="img/PHISWID/51snow.png" width=100%> |
 
 
 ## Benchmarking Results on Synthesized Images
@@ -63,10 +63,10 @@ The following tables are the current state-of-the-art results for marine snow re
 ### PHISWID Results
 |Method   | PSNR  | SSIM  |
 |---|---|---|
-|U-Net(UIEB) ([C Li et al.](https://ieeexplore.ieee.org/document/8917818))   |20.89   | 0.439  |
-|U-Net(LSUI) ([L Peng et al.](https://ieeexplore.ieee.org/abstract/document/10129222))   |21.33  | 0.319  |
-|U-Net(PHISWID)   | **23.97**  | **0.714**  |
-|Synthesized image   | 19.51  | -0.010  |
+|Transformer(UIEB) ([C Li et al.](https://ieeexplore.ieee.org/document/8917818))   |14.69   | 0.286  |
+|Transformer(LSUI) ([L Peng et al.](https://ieeexplore.ieee.org/abstract/document/10129222))   |15.06  | 0.363  |
+|Transformer(PHISWID)   | **21.00**  | **0.793**  |
+|Synthesized image   | 13.67  | 0.120  |
 
 ## Restoration Results
 The images below are restoration examples for both datasets.
@@ -80,11 +80,11 @@ The images below are restoration examples for both datasets.
 
 
 ### PHISWID Results
-| U-Net(UIEB) | U-Net(LSUI)  | U-Net(PHISWID)  |
+| Transformer(UIEB) | Transformer(LSUI)  | Transformer(PHISWID)  |
 |---|---|---|
-|<img src="img/Result/U-Net(UIEB)/UIEB1.png" width=100%> |  <img src="img/Result/U-Net(LSUI)/LSUI1.png" width=100%> | <img src="img/Result/U-Net(PHISWID)/PHISWID1.png" width=100%>|
-|<img src="img/Result/U-Net(UIEB)/UIEB2.png" width=100%> | <img src="img/Result/U-Net(LSUI)/LSUI2.png" width=100%> | <img src="img/Result/U-Net(PHISWID)/PHISWID2.png" width=100%>|
-|<img src="img/Result/U-Net(UIEB)/UIEB3.png" width=100%> | <img src="img/Result/U-Net(LSUI)/LSUI3.png" width=100%> | <img src="img/Result/U-Net(PHISWID)/PHISWID3.png" width=100%>|
+|<img src="img/Result/Transformer(UIEB)/UIEB1.png" width=100%> |  <img src="img/Result/Transformer(LSUI)/LSUI1.png" width=100%> | <img src="img/Result/Transformer(PHISWID)/PHISWID1.png" width=100%>|
+|<img src="img/Result/Transformer(UIEB)/UIEB2.png" width=100%> | <img src="img/Result/Transformer(LSUI)/LSUI2.png" width=100%> | <img src="img/Result/Transformer(PHISWID)/PHISWID2.png" width=100%>|
+|<img src="img/Result/Transformer(UIEB)/UIEB3.png" width=100%> | <img src="img/Result/Transformer(LSUI)/LSUI3.png" width=100%> | <img src="img/Result/Transformer(PHISWID)/PHISWID3.png" width=100%>|
 
 ## Copyright
 Copyright (c) 2024 Reina Kaneko, Hiroshi Higashi, and Yuichi Tanaka.
