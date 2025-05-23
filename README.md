@@ -21,7 +21,7 @@ If you use PHISMID or PHISWID in your paper, please cite the following paper. Th
 PHISMID contains 400 image pairs, all having a pixel resolution of 384 x 384. All original underwater images are collected from [flickr](https://www.flickr.com) under Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic(CC BY-NC-SA 2.0) License and CC BY 2.0. It consists of an original underwater image and that contains synthesized marine snow artifacts.
 
 ### PHISWID Specifications
-PHISWID contains 4195 image pairs, all having a pixel resolution of 1344 x 756. All original atmospheric RGB-D images used for PHISWID are collected from [large-scale RGB-D database]([https://paperswithcode.com/dataset/rmrc-2014]). An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift ([ueda et al.](https://ieeexplore.ieee.org/abstract/document/8803195)) and marine snow artifacts.
+PHISWID contains 4195 image pairs, all having a pixel resolution of 1344 x 756. All original atmospheric RGB-D images used for PHISWID are collected from [large-scale RGB-D database]([https://paperswithcode.com/dataset/rmrc-2014]). An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift ([ueda et al.](https://ieeexplore.ieee.org/abstract/document/8803195)) and marine snow artifacts. The pair of depth maps and the original images are shown in depthmap.csv.
 
 ## Downloading PHISMID and PHISWID
 You can download PHISMID and PHISWID from [Google Drive](https://drive.google.com/drive/folders/12H3M-N62GykBguOO-ojujbWxmZF45P0W?usp=sharing). The file is zipped. After unzipping, you can find *original* and *degraded* directories.
