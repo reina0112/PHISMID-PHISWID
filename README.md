@@ -82,9 +82,9 @@ The images below are restoration examples for both datasets.
 ### PHISWID Results
 | Transformer(UIEB) | Transformer(LSUI)  | Transformer(PHISWID)  |
 |---|---|---|
-| <img src="img/Result/Transformer(UIEB)/1UIEB.png" width="400"> | <img src="img/Result/Transformer(LSUI)/1LSUI.png" width="400"> | <img src="img/Result/Transformer(PHISWID)/1PHISWIDtest.png" width="400"> |
-| <img src="img/Result/Transformer(UIEB)/15UIEB.png" width="400"> | <img src="img/Result/Transformer(LSUI)/15LSUI.png" width="400"> | <img src="img/Result/Transformer(PHISWID)/15PHISWIDtest.png" width="400"> |
-| <img src="img/Result/Transformer(UIEB)/20UIEB.png" width="400"> | <img src="img/Result/Transformer(LSUI)/20LSUI.png" width="400"> | <img src="img/Result/Transformer(PHISWID)/20PHISWIDtest.png" width="400"> |
+| <img src="img/Result/Transformer(UIEB)/1UIEB.png" width="300"> | <img src="img/Result/Transformer(LSUI)/1LSUI.png" width="300"> | <img src="img/Result/Transformer(PHISWID)/1PHISWIDtest.png" width="300"> |
+| <img src="img/Result/Transformer(UIEB)/15UIEB.png" width="300"> | <img src="img/Result/Transformer(LSUI)/15LSUI.png" width="300"> | <img src="img/Result/Transformer(PHISWID)/15PHISWIDtest.png" width="300"> |
+| <img src="img/Result/Transformer(UIEB)/20UIEB.png" width="300"> | <img src="img/Result/Transformer(LSUI)/20LSUI.png" width="300"> | <img src="img/Result/Transformer(PHISWID)/20PHISWIDtest.png" width="300"> |
 
 ## Copyright
 Copyright (c) 2024 Reina Kaneko, Hiroshi Higashi, and Yuichi Tanaka.
