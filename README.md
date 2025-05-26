@@ -7,7 +7,7 @@ Welcome to Physics-Inspired Synthesized Marine Snow Image Dataset (PHISMID in sh
 <img src="img/PHISWID/1room.png" width=50%><img src="img/PHISWID/1snow.png" width=50%>  
 *An example from Physics-Inspired Synthesized Underwater Image Dataset. Left: Original underwater image. Right: Synthesized image.*
 
-PHISWID is tailored to enhance underwater image processing through physics-inspired image synthesis. PHISWID showcases ***color degradation*** and the often-neglected effects of ***marine snow***, a composite of organic matter and sand particles. PHISMID showcases ***marine snow***. We mathematically model the light scattering of marine snow through physics-based underwater image observation model. The modeled artifacts are synthesized with underwater images and construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for underwater image enhancement and to train a deep neural network.
+PHISWID is tailored to enhance underwater image processing through physics-inspired image synthesis. PHISWID showcases ***color degradation*** and the often-neglected effects of ***marine snow***, a composite of organic matter and sand particles. We mathematically model the light scattering of marine snow through physics-based underwater image observation model. The modeled artifacts are synthesized with underwater images and construct large-scale pairs of ground-truth and degraded images to calculate objective qualities for underwater image enhancement and to train a deep neural network.
 
 ## References
 If you use PHISMID or PHISWID in your paper, please cite the following paper. The details for synthesizing marine snow artifacts are also described.
@@ -21,7 +21,7 @@ If you use PHISMID or PHISWID in your paper, please cite the following paper. Th
 PHISMID contains 400 image pairs, all having a pixel resolution of 384 x 384. All original underwater images are collected from [flickr](https://www.flickr.com) under Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic(CC BY-NC-SA 2.0) License and CC BY 2.0. It consists of an original underwater image and that contains synthesized marine snow artifacts.
 
 ### PHISWID Specifications
-PHISWID contains 4195 image pairs, all having a pixel resolution of 1344 x 756. All original atmospheric RGB-D images used for PHISWID are collected from [large-scale RGB-D database]([https://paperswithcode.com/dataset/rmrc-2014]). An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift ([ueda et al.](https://ieeexplore.ieee.org/abstract/document/8803195)) and marine snow artifacts. The pair of depth maps and the original images are shown in depthmap.csv.
+PHISWID contains 4195 image pairs, all having a pixel resolution of 1344 x 756. All original atmospheric RGB-D images used for PHISWID are collected from [large-scale RGB-D database]([https://paperswithcode.com/dataset/rmrc-2014]). An image pair contains one original atmospheric image and one synthesized underwater image degraded by color shift and marine snow artifacts. The pair of depth maps and the original images are shown in depthmap.csv.
 
 ## Downloading PHISMID and PHISWID
 You can download PHISMID and PHISWID from [Google Drive](https://drive.google.com/drive/folders/12H3M-N62GykBguOO-ojujbWxmZF45P0W?usp=sharing). The file is zipped. After unzipping, you can find *original* and *degraded* directories.
